@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner-github.jpg" alt="Alejandro Sousa — Embedded Systems, IoT and PCB Design" width="100%" />
+  <img src="./assets/banner-github.webp" alt="Alejandro Sousa — Embedded Systems, IoT and PCB Design" width="100%" />
 </p>
 
 <p align="center">
