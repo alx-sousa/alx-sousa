@@ -1,77 +1,59 @@
 <p align="center">
-  <img src="./assets/banner-github.png" alt="Alejandro Sousa GitHub Banner" width="100%" />
-</p>
-
-<h1 align="center">Hi, I'm Alejandro Sousa</h1>
-
-<h3 align="center">
-  Embedded Systems · IoT · PCB Design · Hardware/Firmware Integration
-</h3>
-
-<p align="center">
-  I build embedded systems, connected devices and hardware-oriented solutions with a strong focus on
-  <strong>IoT</strong>, <strong>firmware development</strong>, <strong>electronics integration</strong> and
-  <strong>PCB design</strong>.
+  <img src="./assets/banner-github.jpg" alt="Alejandro Sousa — Embedded Systems, IoT and PCB Design" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Embedded+Systems;IoT+Development;PCB+Design;Hardware%2FFirmware+Integration;Building+HENOM" alt="Typing SVG" />
+  <strong>Mechatronics Engineer focused on Embedded Systems, IoT, PCB Design and Hardware/Firmware Integration.</strong>
+</p>
+
+<p align="center">
+  I develop functional embedded prototypes and evolve them toward reliable, testable hardware.
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1100&color=58A6FF&center=true&vCenter=true&width=820&lines=C%2FC%2B%2B+%C2%B7+ESP32+%C2%B7+EasyEDA+Pro;Embedded+Firmware+%C2%B7+PCB+Design;IoT+%C2%B7+Wireless+Systems+%C2%B7+Automation;Hardware+%2B+Firmware+%2B+Validation;Building+HENOM" alt="Engineering focus" />
 </p>
 
 ---
 
 ## About me
 
-- Embedded and IoT-oriented developer with a mechatronics background.
-- Focused on **C/C++**, **ESP32-based development**, **wireless systems**, **hardware/firmware integration** and **PCB design**.
-- Interested in building reliable real-world solutions for **industrial**, **automotive** and **connected-device** applications.
-- Currently evolving **MONITOR IoT** and building new ideas under **HENOM**.
+- I work across **electronics, firmware and system integration**, from schematic decisions to embedded code and bench validation.
+- My main development stack is **C/C++ with ESP32**, integrating peripherals and communication through **I²C, SPI, UART, GPIO, ESP-NOW, Wi-Fi and Bluetooth Low Energy (BLE)**.
+- I design and review PCBs in **EasyEDA Pro**, with emphasis on power, interfaces, manufacturability, debugging and hardware–firmware integration.
+- My background also includes **automation, PLC-based control, instrumentation and electromechanical systems**.
+- I document engineering decisions, limitations and validation results so projects remain reproducible and portfolio-ready.
 
 ---
 
-## Core stack
+## Engineering focus
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,arduino,py,git,github,linux,matlab,vscode" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ESP32-0D1117?style=for-the-badge&logo=espressif&logoColor=white" />
-  <img src="https://img.shields.io/badge/IoT-0D1117?style=for-the-badge&logo=internetofthings&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/EasyEDA-0D1117?style=for-the-badge&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/PCB%20Design-0D1117?style=for-the-badge&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/Automation-0D1117?style=for-the-badge&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/Wireless%20Systems-0D1117?style=for-the-badge&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Embedded%20Firmware-0D1117?style=for-the-badge&logo=cplusplus&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/PCB%20Design-0D1117?style=for-the-badge&logo=kicad&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/IoT%20%26%20Wireless-0D1117?style=for-the-badge&logo=espressif&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Automation-0D1117?style=for-the-badge&logo=siemens&logoColor=58A6FF" />
 </p>
 
 ---
 
-## What I work on
+## Tech & tools
 
-- **Embedded Systems**
-- **IoT Prototyping**
-- **Electronics Integration**
-- **Custom PCB Design**
-- **Wireless Communication**
-- **Automation Solutions**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,arduino,py,git,github,linux,matlab,vscode" alt="Languages and development tools" />
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-0D1117?style=flat-square&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/EasyEDA%20Pro-0D1117?style=flat-square&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/ESP--NOW-0D1117?style=flat-square&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/I%C2%B2C-0D1117?style=flat-square&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/SPI-0D1117?style=flat-square&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/UART-0D1117?style=flat-square&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/BLE-0D1117?style=flat-square&logo=bluetooth&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Wi--Fi-0D1117?style=flat-square&logo=wifi&logoColor=58A6FF" />
+</p>
 
-## Currently building
-
-- Improving embedded hardware architecture for **MONITOR IoT**
-- Expanding my embedded portfolio toward **professional-grade IoT and PCB projects**
-- Building **HENOM** as a technology-focused personal project line
-
----
-
-## Connect with me
-
-<p align="left">
-  <a href="https://github.com/alx-sousa" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-alx--sousa-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="YOUR_LINKEDIN_URL" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Alejandro%20Sousa-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF" />
-  </a>
+<p align="center">
+  <sub>Embedded systems built from hardware to firmware — with validation in mind.</sub>
 </p>
