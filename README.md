@@ -5,8 +5,14 @@
 </p>
 
 <p align="center">
-  I build and validate embedded hardware–firmware prototypes, mainly with C/C++, ESP32 and EasyEDA Pro.
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1100&color=58A6FF&center=true&vCenter=true&width=820&lines=C%2FC%2B%2B+%C2%B7+ESP32+%C2%B7+EasyEDA+Pro;Embedded+Firmware+%C2%B7+PCB+Design;IoT+%C2%B7+Wireless+Systems+%C2%B7+Automation;Hardware+%2B+Firmware+%2B+Validation;Building+HENOM" alt="Engineering focus" />
 </p>
+
+---
+
+## About me
+
+Mechatronics Engineer focused on **embedded systems and IoT**, with hands-on experience in **C/C++ firmware, ESP32 platforms, wireless communication, electronics integration and PCB design**. I enjoy taking ideas from prototype to testable hardware, documenting design decisions and validating the complete hardware–firmware system.
 
 ---
 
