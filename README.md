@@ -57,34 +57,11 @@
 
 ---
 
-## Featured work
-
-### MONITOR IoT
-Wireless proximity monitoring and local alarm system developed for hospital monitoring use cases, combining embedded development, wireless communication, RFID integration and hardware evolution toward a cleaner custom PCB architecture.
-
-🔗 Repository:  
-[Autonomous-IoT-Monitoring](https://github.com/alx-sousa/Autonomous-IoT-Monitoring)
-
----
-
 ## Currently building
 
 - Improving embedded hardware architecture for **MONITOR IoT**
 - Expanding my embedded portfolio toward **professional-grade IoT and PCB projects**
 - Building **HENOM** as a technology-focused personal project line
-
----
-
-## Goals
-
-I’m growing toward opportunities in:
-
-- **Embedded Software**
-- **Embedded Systems**
-- **IoT Development**
-- **Hardware/Firmware Integration**
-- **PCB Design**
-- **Automation and Industrial Technology**
 
 ---
 
