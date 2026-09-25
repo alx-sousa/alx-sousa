@@ -40,7 +40,7 @@
 ## Tech & tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,arduino,py,git,github,linux,matlab,vscode" alt="Languages and development tools" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,arduino,py,git,github,matlab,vscode" alt="Languages and development tools" />
 </p>
 
 <p align="center">
