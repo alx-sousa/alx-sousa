@@ -1,105 +1,128 @@
 <h1 align="center">Hi, I'm Alejandro Sousa</h1>
 
 <p align="center">
-  <strong>Embedded Systems · Firmware · HW/FW Integration · PCB Design · Validation</strong>
+  <strong>Embedded Systems · Firmware · Electronics · HW/FW Integration · Testing & Validation</strong>
 </p>
 
 <p align="center">
-  Mechatronics engineering graduate focused on building and validating embedded systems from electronics to firmware.
+  Mechatronics engineering graduate building practical systems from electronics and firmware through integration, testing and documentation.
 </p>
 
 ---
 
 ## About me
 
-I work at the intersection of **embedded software and electronics**, with hands-on experience in **C/C++ firmware, ESP32 platforms, wireless communication, PCB design, hardware integration and system testing**.
+I like working **close to real hardware**: understanding the problem, choosing an architecture, integrating electronics and firmware, debugging what does not behave as expected, and documenting the result clearly.
 
-My projects usually move from system requirements and architecture through schematic design, PCB layout, firmware, mechanical integration, bring-up planning and validation.
+My hands-on work includes **C/C++ firmware, ESP32 platforms, wireless communication, digital interfaces, PCB design, sensors and actuators, motor-control hardware, PLC automation, mechanical integration and system validation**.
 
-I am especially interested in **automotive, industrial and high-reliability embedded systems**, and I am currently expanding my work toward **24 V industrial I/O, CAN communication and HIL-oriented validation workflows**.
+I am looking for early-career opportunities where I can keep developing across **embedded systems, firmware, hardware integration, test/validation and electronics**, especially in **automotive, aerospace/aeronautics, industrial and other engineering-driven environments**.
 
-> **Education:** Mechatronics Engineering coursework completed · Degree conferral in progress.
+> **Education:** Mechatronics Engineering coursework completed · Degree conferral in progress.  
+> **English:** B2 / Upper-Intermediate · **Location:** Mexico · Open to relocation and travel.
 
 ---
 
-## Featured engineering projects
+# Selected engineering work
+
+## Autonomous IoT Monitoring
 
 <table>
 <tr>
-<td width="30%" align="center" valign="top">
+<td width="34%" align="center" valign="top">
   <a href="https://github.com/alx-sousa/Autonomous-IoT-Monitoring">
-    <img src="https://raw.githubusercontent.com/alx-sousa/Autonomous-IoT-Monitoring/main/docs/images/rev2/rev2-final-enclosure-cad.png" width="260" alt="Autonomous IoT Monitoring REV 2.0">
+    <img src="https://raw.githubusercontent.com/alx-sousa/Autonomous-IoT-Monitoring/main/docs/images/rev2/rev2-final-enclosure-cad.png" width="290" alt="Autonomous IoT Monitoring REV 2.0">
   </a>
 </td>
-<td width="70%" valign="top">
+<td width="66%" valign="top">
 
-### [Autonomous IoT Monitoring](https://github.com/alx-sousa/Autonomous-IoT-Monitoring)
+A wireless proximity-monitoring and local-alert system developed from a technical request by a hospital's DTI department.
 
-Wireless monitoring and local-alert system originally developed for a hospital technical request.
+**Problem** — Provide non-invasive local monitoring and alerts using wearable and receiver nodes.
 
-**Engineering work:** embedded C++, ESP32, ESP-NOW, RFID, RSSI processing, local alarms, IoT telemetry, PCB redesign and enclosure integration.
+**My role** — Coordinated project activities and contributed directly to embedded firmware, electronics, HW/FW integration, testing and technical documentation.
 
-**V1:** functional system developed, tested and delivered.  
-**REV 2.0:** custom two-layer receiver PCB and mechanical redesign.
+**Engineering decisions** — Used independent ESP-NOW links, receiver-side local decisions, RSSI processing with EMA filtering and hysteresis, RFID interaction and cloud telemetry as a secondary layer.
+
+**Result** — V1 was developed, tested, evaluated and delivered as a functional system. I later continued the project independently through **REV 2.0**, redesigning the receiver around a custom two-layer PCB and completed enclosure CAD.
+
+[View complete project →](https://github.com/alx-sousa/Autonomous-IoT-Monitoring)
 
 </td>
 </tr>
 </table>
 
+---
+
+## DC Motor Controller with Encoder — REV A
+
 <table>
 <tr>
-<td width="30%" align="center" valign="top">
+<td width="34%" align="center" valign="top">
   <a href="https://github.com/alx-sousa/DC-Motor-Controller-Encoder">
-    <img src="https://raw.githubusercontent.com/alx-sousa/DC-Motor-Controller-Encoder/main/docs/images/rev-a/pcb-3d-perspective.png" width="260" alt="DC Motor Controller with Encoder REV A">
+    <img src="https://raw.githubusercontent.com/alx-sousa/DC-Motor-Controller-Encoder/main/docs/images/rev-a/pcb-3d-perspective.png" width="290" alt="DC Motor Controller with Encoder REV A">
   </a>
 </td>
-<td width="70%" valign="top">
+<td width="66%" valign="top">
 
-### [DC Motor Controller with Encoder — REV A](https://github.com/alx-sousa/DC-Motor-Controller-Encoder)
+A component-level **12 V DC motor controller** designed to move beyond ready-made buck and H-bridge modules.
 
-Two-layer **12 V DC motor controller** designed at component level.
+**Problem** — Build a single PCB capable of powering and controlling a geared DC motor while reading an incremental Hall encoder.
 
-**Engineering work:** input protection, TPS54302 buck conversion, DRV8871 motor drive, incremental Hall encoder interface, ESP32-C6 integration, power routing, grounding and thermal-via design.
+**My role** — Developed the schematic and two-layer PCB, selected the main power/control components, reviewed footprints and routing, and prepared the design for structured bring-up.
 
-**Status:** schematic complete · PCB routed · DRC passed · 3D review complete.
+**Engineering decisions** — Protected 12 V input, **TPS54302** buck conversion, **DRV8871** motor drive, 3.3 V encoder interface, differentiated power routing, GND pours/stitching vias, exposed-pad thermal vias and a removable ESP32-C6 controller.
+
+**Result** — Schematic complete, PCB routed, DRC passed and 3D/Fusion 360 integration reviewed. Physical fabrication and bring-up remain the next validation stage.
+
+[View complete project →](https://github.com/alx-sousa/DC-Motor-Controller-Encoder)
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/alx-sousa/PCB-Hardware-Portfolio"><strong>View PCB Hardware Portfolio →</strong></a>
+  <a href="https://github.com/alx-sousa/PCB-Hardware-Portfolio"><strong>PCB Hardware Portfolio →</strong></a>
 </p>
 
 ---
 
-## Technical focus
+## Engineering toolkit
 
-| Area | Technologies / experience |
+| Area | Hands-on experience |
 |---|---|
-| **Embedded firmware** | C/C++, Arduino framework, ESP32-C6, ESP32-S3 |
-| **Interfaces & wireless** | I²C, SPI, UART, GPIO, ESP-NOW, Wi-Fi, BLE |
-| **Electronics & PCB** | EasyEDA Pro, schematic capture, PCB layout, power routing, grounding, protection, motor-control hardware |
-| **Hardware integration** | Sensors, RFID, displays, motor/encoder interfaces, power electronics |
-| **Validation** | Bring-up planning, functional testing, debugging, design verification and technical documentation |
-| **Automation** | Siemens S7-1200 / S7-300, TIA Portal, STEP 7, Ladder, Factory I/O |
+| **Embedded firmware** | C/C++, Arduino framework, ESP32-C6, ESP32-S3, non-blocking logic, state-based control |
+| **Interfaces & connectivity** | I²C, SPI, UART, GPIO, RFID, ESP-NOW, Wi-Fi, BLE |
+| **Electronics & PCB** | EasyEDA Pro, schematic capture, 2-layer PCB layout, DRC, component selection, power routing, grounding, protection and thermal considerations |
+| **Integration** | Sensors, actuators, OLEDs, RFID readers, motor/encoder interfaces, LiPo systems, hardware–firmware integration |
+| **Testing & validation** | Functional testing, calibration, debugging, bring-up planning, design verification and technical documentation |
+| **Automation & control** | Siemens S7-1200 / S7-300, TIA Portal, STEP 7, Ladder, PID Compact, Factory I/O, instrumentation and pneumatics |
 | **Mechanical integration** | Fusion 360, SolidWorks |
-| **Supporting tools** | Git, GitHub, VS Code, MATLAB, basic Python |
+| **Development tools** | Git, GitHub, VS Code, Cursor, MATLAB, Arduino IDE |
 
 ---
 
-## Current engineering direction
+## Earlier engineering projects
 
-I am building a portfolio around three complementary areas:
+Before the two projects above, I worked on academic and personal systems involving **closed-loop level control with Siemens PLCs, PI/PID ball-position control, conveyor and pneumatic sequencing, stepper-motor positioning, robotic arms, line-following and mobile robots**.
 
-- **Embedded systems and firmware**
-- **Hardware / firmware integration and validation**
-- **Industrial and automotive communication systems**
+Those projects gave me an early foundation in **control, sensors, actuators, automation and system integration** that I am now extending into more complete embedded and hardware designs.
 
-Current development topics include **24 V industrial digital I/O**, **CAN-based embedded nodes**, and **HIL-oriented test workflows**.
+---
+
+## Current direction
+
+I am deliberately broadening my portfolio instead of limiting it to one niche. My next work is oriented toward:
+
+- **24 V industrial digital I/O and protected field interfaces**
+- **Industrial communications and remote I/O concepts**
+- **CAN-based embedded networks**
+- **Hardware test automation and HIL-oriented validation**
+
+The goal is to build the kind of engineering depth that transfers across **embedded, hardware, validation, automotive, industrial and aerospace roles**.
 
 ---
 
 <p align="center">
-  <sub>Building embedded systems with validation in mind.</sub>
+  <strong>Embedded systems are most interesting to me when firmware, electronics and validation meet.</strong>
 </p>
