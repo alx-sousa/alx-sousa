@@ -34,7 +34,7 @@ A wireless proximity-monitoring and local-alert system developed in response to 
 
 [Full project](https://github.com/alx-sousa/Autonomous-IoT-Monitoring) · [V1 evaluation](https://github.com/alx-sousa/Autonomous-IoT-Monitoring/blob/main/docs/testing.md) · [Validation status](https://github.com/alx-sousa/Autonomous-IoT-Monitoring/blob/main/docs/validation.md)
 
-The public repository documents firmware architecture and node responsibilities. The complete V1 implementation is maintained privately.
+The project repository includes block-level firmware documentation and sanitized historical V1 source snapshots for technical review; deployment-specific configuration remains private.
 
 ### DC Motor Controller with Encoder — REV A
 
