@@ -8,11 +8,29 @@ Mechatronics engineering graduate based in Mexico, with a technical background i
 
 I work close to hardware: understanding the problem, choosing an architecture, integrating electronics and firmware, debugging unexpected behavior, and documenting what the system actually does.
 
-My projects span wireless monitoring, embedded firmware, custom PCB design, motor-control hardware and PLC automation. My work has progressed from integrating commercial modules into a functional system to designing power and interface circuits at component level.
+My projects span wireless monitoring, embedded firmware, custom PCB design, power management, hardware–firmware integration and PLC automation. My work has progressed from integrating commercial modules into functional systems to designing compact product-oriented electronics at component level.
 
 I am seeking an early-career role in embedded systems, electronics, hardware–firmware integration or test and validation. I am interested in applying this foundation to industrial, automotive and aerospace engineering teams while developing deeper technical skills.
 
 ## Selected engineering work
+
+### P1 Rev B — Commercial Refrigeration Monitor
+
+A product-oriented **retrofit condition-monitoring platform for commercial refrigeration**, developed from a real pilot need in a butcher-shop refrigeration environment. The system is intended to observe temperature, door state, power/battery condition and local events without taking control of the refrigerator or compressor.
+
+**My contribution:** system architecture, component selection, schematic capture, four-layer PCB design in EasyEDA Pro, power/sensing/interface integration, preliminary mechanical integration in Fusion, engineering calculations and a structured pre-fabrication validation plan.
+
+**Key decisions:** ESP32-C6 embedded core; single external USB-C for power, charging and native programming/service; BQ25186 LiPo charger/power path; TPS63802 buck-boost logic rail; external DS18B20 probe; low-power Hall sensing; RTC-backed timestamps; switched loads; 1.69-inch IPS display; local buzzer; dedicated L2 ground plane and L3 power distribution.
+
+**Current status:** Rev B hardware architecture, schematic and four-layer PCB have reached the current pre-fabrication design milestone. Gerber/manufacturing review, first build, electrical bring-up, firmware, dedicated monitoring software, final enclosure and field validation remain next milestones.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alx-sousa/P1-Refrigeration-Monitor/main/docs/images/p1_revB_fusion_hero_iso.png" width="560" alt="P1 Rev B commercial refrigeration monitor conceptual PCB and display integration">
+</p>
+
+*Rev B conceptual PCB + display integration — design-stage view, fabrication pending.*
+
+[Full project](https://github.com/alx-sousa/P1-Refrigeration-Monitor) · [Architecture](https://github.com/alx-sousa/P1-Refrigeration-Monitor/blob/main/docs/architecture.md) · [Validation plan](https://github.com/alx-sousa/P1-Refrigeration-Monitor/blob/main/docs/validation-plan.md)
 
 ### Autonomous IoT Monitoring
 
@@ -36,27 +54,9 @@ A wireless proximity-monitoring and local-alert system developed in response to 
 
 The project repository includes block-level firmware documentation and sanitized historical V1 source snapshots for technical review; deployment-specific configuration remains private.
 
-### DC Motor Controller with Encoder — REV A
+### Additional hardware work
 
-A personal hardware project for a 12 V geared DC motor with an incremental Hall encoder. I developed it to practice designing the power and motor-drive stages from individual components.
-
-**My contribution:** component selection, schematic capture, two-layer PCB layout in EasyEDA Pro, design-rule checks and mechanical integration review in Fusion 360.
-
-**Key decisions:** protected 12 V input, TPS54302 buck conversion, DRV8871 motor drive, an intended 3.3 V encoder interface and a removable ESP32-C6 Super Mini. The layout separates functional blocks and includes ground pours, stitching vias and exposed-pad thermal vias.
-
-**Current result:** schematic and routing completed, design-rule checks (DRC) reported as passed, and 3D integration reviewed. These are design-stage checks; prototype fabrication, electrical bring-up, motor/encoder measurements and closed-loop firmware remain pending.
-
-The exact encoder's electrical compatibility and the controller module's power-path behavior remain verification items before system operation.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/alx-sousa/DC-Motor-Controller-Encoder/main/docs/images/rev-a/pcb-3d-perspective.png" width="520" alt="REV A motor-controller PCB render; fabrication and electrical testing pending">
-</p>
-
-*REV A PCB render — design-stage view.*
-
-[Full project](https://github.com/alx-sousa/DC-Motor-Controller-Encoder) · [Design decisions](https://github.com/alx-sousa/DC-Motor-Controller-Encoder/blob/main/docs/design-decisions.md) · [Planned bring-up](https://github.com/alx-sousa/DC-Motor-Controller-Encoder/blob/main/docs/bring-up-plan.md)
-
-[PCB Hardware Portfolio](https://github.com/alx-sousa/PCB-Hardware-Portfolio) provides a compact visual index of these board designs.
+The [PCB Hardware Portfolio](https://github.com/alx-sousa/PCB-Hardware-Portfolio) contains a compact visual index of additional board designs, including the **DC Motor Controller with Encoder — REV A**. That project remains useful evidence of power-stage and motor-drive PCB work, but P1 Rev B is now the stronger representation of my current hardware-design level.
 
 ## Engineering toolkit
 
@@ -64,9 +64,9 @@ The exact encoder's electrical compatibility and the controller module's power-p
 |---|---|
 | Embedded firmware | C/C++, Arduino framework, ESP32-C6, ESP32-S3, non-blocking and state-based logic |
 | Interfaces and connectivity | GPIO, UART, I²C, SPI, ESP-NOW, Wi-Fi, BLE and RFID integration; depth varies by project |
-| Electronics and PCB | EasyEDA Pro, schematic capture, two-layer layout, component selection, DRC, power routing, grounding and thermal considerations |
-| Hardware–firmware integration | Sensors, displays, local alarms, LiPo-powered nodes and peripheral interfaces |
-| Testing and documentation | Functional evaluation, debugging, test-result interpretation and planned board bring-up procedures |
+| Electronics and PCB | EasyEDA Pro, schematic capture, two- and four-layer PCB layout, component selection, DRC, grounding, power management and interface protection |
+| Hardware–firmware integration | Sensors, displays, local alarms, LiPo-powered nodes, USB service/programming and peripheral interfaces |
+| Testing and documentation | Functional evaluation, debugging, test-result interpretation, validation planning and structured board bring-up procedures |
 | Automation and control | Siemens S7-1200/S7-300, TIA Portal, STEP 7, Ladder, PID Compact, Factory I/O, instrumentation and pneumatics |
 | Mechanical integration | Fusion 360 and SolidWorks for enclosure and assembly design |
 | Development tools | Git, GitHub, Arduino IDE, VS Code and Cursor; basic Python and MATLAB |
